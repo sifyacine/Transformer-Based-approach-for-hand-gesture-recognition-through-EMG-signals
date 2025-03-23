@@ -6,7 +6,34 @@ The project aims at designing and implementing a transformer deep neural network
 This repository implements a transformer-based approach for data processing and model training. The project is structured to handle multiple datasets (DB2, DB3, DB4), with dedicated directories for data storage, model training, and results visualization.
 
 # Repository Structure
-. ├── data │ ├── DB2 │ │ ├── dataset │ │ ├── normalized_data │ │ └── preprocessed_data │ ├── DB3 │ └── DB4 ├── models │ ├── DB2 │ ├── DB3 │ └── DB4 ├── results │ ├── DB2 │ │ ├── DB2_confusion_matrix │ │ ├── DB2_graphs │ │ └── DB2_xlsx │ ├── DB3 │ └── DB4 ├── .gitignore ├── create_dataset_vf.ipynb ├── README.md └── transformer_mode_training.ipynb
+
+📂 data
+│── 📂 DB2
+│   │── 📂 dataset
+│   │── 📂 normalized_data
+│   │── 📂 preprocessed_data
+│── 📂 DB3
+│── 📂 DB4
+
+📂 models
+│── 📂 DB2
+│── 📂 DB3
+│── 📂 DB4
+
+📂 results
+│── 📂 DB2
+│   │── 📂 DB2_confusion_matrix
+│   │── 📂 DB2_graphs
+│   │── 📂 DB2_xlsx
+│── 📂 DB3
+│── 📂 DB4
+
+📄 .gitignore
+📄 create_dataset_vf.ipynb
+📄 README.md
+📄 transformer_mode_training.ipynb
+
+
 # Description of Key Components
 
 - data/: Contains datasets for DB2, DB3, and DB4, along with their preprocessed and normalized versions.
