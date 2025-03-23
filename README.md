@@ -7,31 +7,7 @@ This repository implements a transformer-based approach for data processing and 
 
 # Repository Structure
 
-├── data
-│   ├── DB2
-│   │   ├── dataset
-│   │   ├── normalized_data
-│   │   ├── preprocessed_data
-│   ├── DB3
-│   ├── DB4
-│
-├── models
-│   ├── DB2
-│   ├── DB3
-│   ├── DB4
-│
-├── results
-│   ├── DB2
-│   │   ├── DB2_confusion_matrix
-│   │   ├── DB2_graphs
-│   │   ├── DB2_xlsx
-│   ├── DB3
-│   ├── DB4
-│
-├── .gitignore
-├── create_dataset_vf.ipynb
-├── README.md
-├── transformer_mode_training.ipynb
+``` ├── data │ ├── DB2 │ │ ├── dataset │ │ ├── normalized_data │ │ ├── preprocessed_data │ ├── DB3 │ ├── DB4 │ ├── models │ ├── DB2 │ ├── DB3 │ ├── DB4 │ ├── results │ ├── DB2 │ │ ├── DB2_confusion_matrix │ │ ├── DB2_graphs │ │ ├── DB2_xlsx │ ├── DB3 │ ├── DB4 │ ├── .gitignore ├── create_dataset_vf.ipynb ├── README.md ├── transformer_mode_training.ipynb ```
 
 # Description of Key Components
 
