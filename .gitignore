@@ -1,0 +1,8 @@
+# Ignore files larger than 100 MB
+*.zip
+*.tar
+*.mp4
+*.iso
+*.mat
+*.pkl
+large_files/
