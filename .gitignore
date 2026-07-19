@@ -17,3 +17,7 @@ GUIDE.md
 .venv/
 .venv-1/
 __pycache__/
+
+# Generated pipeline outputs
+db2_processed/
+results/
