@@ -11,4 +11,4 @@ large_files/
 # Exception: keep the small synthetic demo sample under version control.
 !demo/data/sample/S1_E1_A1.mat
 ASET26_EMG_HGR-1.pdf
-CLAUDE.md
+GUIDE.md
