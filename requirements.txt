@@ -9,7 +9,9 @@ matplotlib
 scikit-learn
 tensorflow          # 2.21 tested; CPU-only on native Windows (no GPU)
 nina_funcs          # NinaPro DB2 preprocessing helpers (get_data, normalise, windowing, ...)
+tqdm                # required by nina_funcs (not declared as its dependency)
 mlxtend             # confusion-matrix plotting (model_code.ipynb)
 xlsxwriter          # results .xlsx export (model_code.ipynb)
 seaborn             # signal_visual_code.ipynb figures
 PyWavelets          # imported by preprocess_code.ipynb (module name: pywt)
+ipykernel           # to run the .ipynb notebooks in VS Code / Jupyter with this venv

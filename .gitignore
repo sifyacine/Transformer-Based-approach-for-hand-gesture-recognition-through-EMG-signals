@@ -12,3 +12,8 @@ large_files/
 !demo/data/sample/S1_E1_A1.mat
 ASET26_EMG_HGR-1.pdf
 GUIDE.md
+
+# Python virtual environment
+.venv/
+.venv-1/
+__pycache__/
